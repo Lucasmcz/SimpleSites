@@ -1,0 +1,47 @@
+#logo
+{
+    width: 50px;/*Largura*/
+    
+}
+
+#sidebar
+{
+    width: 230px;/*Largura*/
+    padding: 10px;/*Espaçamento*/
+    background-color: #142749;/*Cor de Fundo*/
+    height: 100vh;/*Viewport*/
+}
+
+.sidebar-heading
+{
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.card-title
+{
+    margin: 0;/*Espaçamento*/
+}
+
+.nav-link-text
+{
+    color: #222;
+    font-weight: 600;
+}
+
+
+/*Sobrescrita do Bootstrap*/
+.breadcrumb
+{
+    padding: 0.5rem 1rem;
+
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.nav-link:hover
+{
+    color:#777;
+}
+
