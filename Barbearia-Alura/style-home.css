@@ -1,0 +1,87 @@
+/*Tudo que eu adiciono no elemento pai reflete nos elementos filhos*/
+/*Red Green Blue - Para montar a cores *
+Hexadecimal:
+    0 - Ausencia
+    F - Maximo 
+Cores:
+    Red
+    Green
+    Blue
+RGB: 
+    0 - Minimo
+    255- Maximo
+*/
+
+/*
+Padding ---- Espaçamento Interno
+Margin ---- Espaçamento Externo
+
+*/
+
+body
+{
+    background: #FFFFFF;
+}
+
+#banner
+{
+    width: 100%;
+}
+.titulo-principal
+{
+    padding-left: 20px;
+}
+.principal
+{
+    background: #cccccc;
+    padding: 30px;
+}
+.titulo-centralizado
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+    color:black;
+}
+/*ID*/
+#missao
+{
+    font-size: 20px;
+}
+
+#banner
+{
+    width: 100%;
+}
+
+em strong
+{
+    color:#FF0000;
+}
+
+.itens
+{
+    font-style: italic;
+}
+
+.beneficios
+{
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right:15%;
+}
+
+.imagembeneficios
+{
+    width: 50%;
+}
